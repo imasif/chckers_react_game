@@ -1090,9 +1090,6 @@ export default class Game extends Component {
 			<div id="checkersBoardWrap">
 				<button style={{backgroundColor: 'red', alignItems: 'center', margin: "20px 0",
                                 justifyContent: 'center', borderRadius: 15, color:'#fff', padding: '10px 20px', fontSize:20}} onClick={()=> window.location.reload()}>Start New Game</button>
-				
-				{/* <button id="btnReplay" style="display:none;" onclick="replayAll({x: 0, y: 0}, 70, boardCanvas)">View Replay</button><br/><br/> --> */}
-				{/* <svg id="checkersBoard" ref={refs=>this.boardCanvas=refs} ></svg> */}
 			</div>
 		)
 	};
